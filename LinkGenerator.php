@@ -22,7 +22,7 @@ class LinkGenerator
         $vendor = $prices[$lowestPrice];
 
         if (isset($elem['links'][$vendor]) && $elem['links'][$vendor] && $elem['links'][$vendor] !== '') {
-            return sprintf('<a href="%s" target="_blank" class="btn btn-block btn-link">Go to store</a>', $elem['links'][$vendor]);
+            return sprintf('<a href="%s" target="_blank">%s</a><br><span class="text-muted">(%s)</span>', $elem['links'][$vendor], $elem['name'], $vendor);
         }
 
         return null;
