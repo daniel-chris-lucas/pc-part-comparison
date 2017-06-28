@@ -4,48 +4,93 @@
 return [
     'Processor' => [
         ['name' => 'i5-6500', 'prices' => [
-            'Amazon'          => 22139,
+            'Amazon'          => 21765,
             'Rue du Commerce' => 22990,
-            'Top Achat'       => 21611,
-            'CDiscount'       => 20999,
+            'Top Achat'       => 22990,
+            'CDiscount'       => 20554,
             'Materiel.net'    => 22990,
             'LDLC'            => 23495
         ], 'links' => [
-            'Amazon'          => 'https://www.amazon.fr/Intel-Skylake-Processeur-i5-6500-BX80662I56500/dp/B010T6CWI2/ref=sr_1_1?ie=UTF8&qid=1498512411&sr=8-1&keywords=i5-6500',
+            'Amazon'          => 'https://www.amazon.fr/Intel-Skylake-Processeur-i5-6500-BX80662I56500/dp/B010T6CWI2/ref=sr_1_1?ie=UTF8&qid=1498638129&sr=8-1&keywords=i5-6500',
             'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Processeur/Processeur-INTEL/INTEL/4943150-Core-i5-6500-3-2-ghz.htm#moid:MO-05AA0M57881698',
             'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wpr_puis_ref_est_in10090499.html',
-            'CDiscount'       => 'http://www.cdiscount.com/informatique/processeurs/intel-r-skylake-core-r-i5-6500/f-10764-bx80662i56500.html#mpos=2|cd',
+            'CDiscount'       => 'http://www.cdiscount.com/informatique/processeurs/intel-r-skylake-core-r-i5-6500/f-10764-bx80662i56500.html#mpos=1|cd',
             'Materiel.net'    => 'http://www.materiel.net/processeur/intel-core-i5-6500-117233.html',
             'LDLC'            => 'http://www.ldlc.com/navigation/i5-6500/'
+        ]],
+        ['name' => 'i5-7400', 'prices' => [
+            'Amazon'          => 18292,
+            'Rue du Commerce' => 20990,
+            'Top Achat'       => 21590,
+            'CDiscount'       => 18386,
+            'Materiel.net'    => 21590,
+            'LDLC'            => 21595
+        ], 'links' => [
+            'Amazon'          => 'https://www.amazon.fr/Intel-Core-Kabylake-i5-7400-Processeur/dp/B01MSTDS3N/ref=sr_1_1?ie=UTF8&qid=1498638583&sr=8-1&keywords=i5-7400',
+            'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Processeur/Processeur-INTEL/INTEL/4977131-Processeur-Intel-Core-i5-7400-3-00GHz-LGA1151-KABYLAKE.htm#moid:MO-79C75M66945166',
+            'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wpr_puis_ref_est_in10101859.html',
+            'CDiscount'       => 'http://www.cdiscount.com/informatique/processeurs/intel-processeur-kaby-lake-core-i5-7400-3-0ghz/f-10764-bx80677i57400.html#mpos=10|cd',
+            'Materiel.net'    => 'http://www.materiel.net/processeur/intel-core-i5-7400-137573.html',
+            'LDLC'            => 'http://www.ldlc.com/fiche/PB00221451.html'
+        ]],
+        ['name' => 'i5-7500', 'prices' => [
+            'Amazon'          => 20386,
+            'Rue du Commerce' => 22490,
+            'Top Achat'       => 23990,
+            'CDiscount'       => 21233,
+            'Materiel.net'    => 23990,
+            'LDLC'            => 23995
+        ], 'links' => [
+            'Amazon'          => 'https://www.amazon.fr/Intel-Core-Kabylake-i5-7500-Processeur/dp/B01MZZJ1P0/ref=sr_1_1?ie=UTF8&qid=1498638691&sr=8-1&keywords=i5-7500',
+            'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Processeur/Processeur-INTEL/INTEL/4977132-Processeur-Intel-Core-i5-7500-3-40GHz-LGA1151-KABYLAKE.htm#moid:MO-49A1BM66945094',
+            'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wpr_puis_ref_est_in10101860.html',
+            'CDiscount'       => 'http://www.cdiscount.com/informatique/processeurs/intel-processeur-kaby-lake-core-i5-7500-3-4ghz/f-10764-bx80677i57500.html#mpos=3|cd',
+            'Materiel.net'    => 'http://www.materiel.net/processeur/intel-core-i5-7500-137572.html',
+            'LDLC'            => 'http://www.ldlc.com/fiche/PB00221453.html'
+        ]],
+        ['name' => 'i5-7600', 'prices' => [
+            'Amazon'          => 20386,
+            'Rue du Commerce' => 25990,
+            'Top Achat'       => 25990,
+            'CDiscount'       => 21988,
+            'Materiel.net'    => 26490,
+            'LDLC'            => 25995
+        ], 'links' => [
+            'Amazon'          => 'https://www.amazon.fr/Intel-Core-Kabylake-i5-7500-Processeur/dp/B01MZZJ1P0/ref=sr_1_3?ie=UTF8&qid=1498638822&sr=8-3&keywords=i5-7600',
+            'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Processeur/Processeur-INTEL/INTEL/4977134-Processeur-Intel-Core-i5-7600K-3-80GHz-LGA1151-KABYLAKE.htm#moid:MO-49A1BM66945098',
+            'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wpr_puis_ref_est_in10101862.html',
+            'CDiscount'       => 'http://www.cdiscount.com/informatique/processeurs/intel-processeur-kaby-lake-core-i5-7600-3-5ghz/f-10764-bx80677i57600.html#mpos=1|cd',
+            'Materiel.net'    => 'http://www.materiel.net/processeur/intel-core-i5-7600-137574.html',
+            'LDLC'            => 'http://www.ldlc.com/fiche/PB00221455.html'
         ]],
     ],
     'Mobo' => [
         ['name' => 'MSI B250I Gaming Pro AC (1151)', 'prices' => [
-            'Amazon'          => 9999,
+            'Amazon'          => 10126,
             'Rue du Commerce' => 11890,
-            'Top Achat'       => 11177,
-            'CDiscount'       => 10999,
+            'Top Achat'       => 11890,
+            'CDiscount'       => 10126,
             'Materiel.net'    => 11899,
             'LDLC'            => 12395
         ], 'links' => [
-            'Amazon'          => 'https://www.amazon.fr/MSI-B250I-GAMING-AC-Socket/dp/B01MZ6B7EH/ref=sr_1_1?ie=UTF8&qid=1498513461&sr=8-1&keywords=MSI+B250I+Gaming+Pro+AC',
+            'Amazon'          => 'https://www.amazon.fr/MSI-B250I-GAMING-AC-Socket/dp/B01MZ6B7EH/ref=sr_1_1?ie=UTF8&qid=1498638967&sr=8-1&keywords=MSI+B250I+Gaming+Pro+AC',
             'Rue du Commerce' => 'https://www.rueducommerce.fr/recherche/msi-b250i-gaming-pro-ac',
-            'Top Achat'       => 'https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=MSI+B250I+Gaming+Pro+AC',
-            'CDiscount'       => 'http://www.cdiscount.com/search/10/msi+b250i+gaming+pro+ac.html#_his_',
+            'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_w_cm_1151_puis_ref_est_in10102052.html',
+            'CDiscount'       => 'http://www.cdiscount.com/informatique/cartes-meres/msi-carte-mere-b250i-gaming-pro-ac/f-10765-b250igamproac.html#mpos=1|cd',
             'Materiel.net'    => 'http://www.materiel.net/achat/msi-b250i-gaming-pro-ac/',
             'LDLC'            => 'http://www.ldlc.com/fiche/PB00221567.html'
         ]],
     ],
     'SSD' => [
         ['name' => 'Samsung 850 Evo (256Go)', 'prices' => [
-            'Amazon'          => 9569,
-            'Rue du Commerce' => 15000,
-            'Top Achat'       => 10331,
-            'CDiscount'       => 9644,
+            'Amazon'          => 9600,
+            'Rue du Commerce' => 10980,
+            'Top Achat'       => 10990,
+            'CDiscount'       => 9999,
             'Materiel.net'    => 10990,
             'LDLC'            => 9995
         ], 'links' => [
-            'Amazon'          => 'https://www.amazon.fr/Samsung-MZ-75E250B-EU-Disque-interne/dp/B00P736UEU/ref=sr_1_1?ie=UTF8&qid=1498514815&sr=8-1&keywords=Samsung+850+Evo',
+            'Amazon'          => 'https://www.amazon.fr/Samsung-MZ-75E250B-EU-Disque-interne/dp/B00P736UEU/ref=sr_1_1?ie=UTF8&qid=1498639903&sr=8-1&keywords=Samsung+850+Evo',
             'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/SSD/SSD-Interne/SAMSUNG/4930541-850-EVO-250-Go.htm#moid:MO-041D6M44278976',
             'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_w_ssd_puis_ref_est_in10084686.html',
             'CDiscount'       => 'http://www.cdiscount.com/informatique/ssd/samsung-250go-ssd-2-5-850-evo-mz-75e250b-eu/f-10703-mz75e250beu.html#mpos=1|cd',
@@ -55,14 +100,14 @@ return [
     ],
     'HDD' => [
         ['name' => 'WD Blue 2To', 'prices' => [
-            'Amazon'          => 7200,
+            'Amazon'          => 7301,
             'Rue du Commerce' => 10400,
-            'Top Achat'       => 6937,
-            'CDiscount'       => 7199,
+            'Top Achat'       => 6880,
+            'CDiscount'       => 6499,
             'Materiel.net'    => 7990,
             'LDLC'            => 8596
         ], 'links' => [
-            'Amazon'          => 'https://www.amazon.fr/Western-Digital-WD20EZRZ-Disque-Interne/dp/B013QFRS2S/ref=sr_1_1?ie=UTF8&qid=1498514924&sr=8-1&keywords=WD+Blue+2To',
+            'Amazon'          => 'https://www.amazon.fr/Western-Digital-WD20EZRZ-Disque-Interne/dp/B013QFRS2S/ref=sr_1_1?ie=UTF8&qid=1498640074&sr=8-1&keywords=WD+Blue+2To',
             'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Disque-Dur-interne/Disque-Dur-interne-3-5/WESTERN-DIGITAL/4947887-WD-Blue-3-To.htm#moid:MO-DFD8EM59162914',
             'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wdi_sata_puis_ref_est_in10092718.html',
             'CDiscount'       => 'http://www.cdiscount.com/informatique/disques-durs-internes/wd-blue-2to-64mo-3-5-wd20ezrz/f-10768-wd20ezrz.html#mpos=1|cd',
@@ -89,14 +134,14 @@ return [
     ],
     'RAM' => [
         ['name' => 'DDR4 Corsair Vengeance 16Go', 'prices' => [
-            'Amazon'          => 14589,
+            'Amazon'          => 14780,
             'Rue du Commerce' => 14780,
-            'Top Achat'       => 13893,
+            'Top Achat'       => 14780,
             'CDiscount'       => 16499,
             'Materiel.net'    => 14690,
-            'LDLC'            => 15035,
+            'LDLC'            => 14995,
         ], 'links' => [
-            'Amazon'          => 'https://www.amazon.fr/Corsair-CMK16GX4M2A2400C14-Vengeance-ordinateur-performance/dp/B00S51XHUQ/ref=sr_1_3?ie=UTF8&qid=1498515277&sr=8-3&keywords=DDR4+Corsair+Vengeance+16Go',
+            'Amazon'          => 'https://www.amazon.fr/Corsair-CMK16GX4M2A2400C14-Vengeance-ordinateur-performance/dp/B00S51XHUQ/ref=sr_1_2?ie=UTF8&qid=1498640201&sr=8-2&keywords=DDR4+Corsair+Vengeance+16Go',
             'Rue du Commerce' => 'http://www.rueducommerce.fr/Composants/Memoire-PC/Memoire-DDR4/CORSAIR/4942073-Vengeance-LPX-Black-16-Go-2-x-8-Go-DDR4-2400-MHz-Cas-14.htm#moid:MO-19DE7M55308328',
             'Top Achat'       => 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wme_ddr4_puis_ref_est_in10089924.html',
             'CDiscount'       => 'http://www.cdiscount.com/informatique/memoire-ram/corsair-vengeance-rgb-series-ddr4-3000-cl15-16/f-10716-cor0843591097192.html#mpos=19|cd',
